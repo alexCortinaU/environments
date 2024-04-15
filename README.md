@@ -1,6 +1,6 @@
 ## Description
 
-To  test the installation of different conda environments
+Test the installation of different conda environments. The minimum example (less amount of packages) has "_min" appended to the corresponding file name.
 
 ### Clone project
 ```bash
