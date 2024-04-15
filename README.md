@@ -5,7 +5,8 @@ To  test the installation of different conda environments
 ### Clone project
 ```bash
 # first clone this repo or download the necessary files directly
-git clone 
+git clone https://github.com/alexCortinaU/environments.git
+cd environments
 
 ```
 
