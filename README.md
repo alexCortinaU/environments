@@ -1,6 +1,7 @@
 ## Description
 
-Test the installation of different conda environments. The minimum example (less amount of packages) has "_min" appended to the corresponding file name.
+Test the installation of different conda environments. The minimum example (fewer packages) has "_min" appended to the corresponding file name. 
+Note: some packages can be installed only through pip (so far tested).
 
 ### Clone project
 ```bash
