@@ -27,3 +27,15 @@ conda env create -f environment.yaml -n myenv
 conda activate myenv
 
 ```
+
+### Dummy training
+```bash
+# activate environment
+conda activate myenv
+
+# install missing libraries (this will change everytime)
+pip install argparse
+
+# run dummy training with MNIST dataset
+python train.py --max_epochs=20
+```

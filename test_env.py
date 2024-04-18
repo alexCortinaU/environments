@@ -21,3 +21,6 @@ if __name__ == '__main__':
     print(f"nibabel: {nibabel.__version__}")
     print(f"matplotlib: {matplotlib.__version__}")
     print(f"wandb: {wandb.__version__}")
+
+    if torch.cuda.is_available():
+        print('GPU is available')
