@@ -47,7 +47,7 @@ def train(limit_train_batches=100,
 
 
 if __name__ == '__main__':
-    print(this_path)
+    # print(this_path)
     limit_train_batches = args.limit_train_batches
     max_epochs = args.max_epochs
     print('Starting training with: \n')
