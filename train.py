@@ -1,5 +1,5 @@
 import os
-import pathlib as Path
+from pathlib import Path
 import argparse
 from torch import utils
 from torch import cuda
