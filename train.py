@@ -8,7 +8,7 @@ from torchvision.transforms import ToTensor
 import lightning as L
 
 from src.models.dummy import LitAutoEncoder
-this_path = Path.cwd()
+# this_path = Path().cwd()
 
 
 parser = argparse.ArgumentParser()
