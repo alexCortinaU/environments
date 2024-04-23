@@ -26,7 +26,7 @@ def train(limit_train_batches=100,
 
     # setup data
     mnist_path = Path('/LovbeskyttetMapper/PERSIMUNE-1401-XRAY/rt-ssl/data/')
-    dataset = MNIST(mnist_path, download=True, transform=ToTensor())
+    dataset = MNIST(mnist_path, download=False, transform=ToTensor())
     train_loader = utils.data.DataLoader(dataset)
 
     # init the autoencoder
